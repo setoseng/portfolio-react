@@ -59,7 +59,7 @@ const Portfolio = () => {
                       />
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
+                  {/* <SwiperSlide className="swiper-slide">
                     <div className="list_inner">
                       <div className="image">
                         <img src="img/thumbs/1-1.jpg" alt="" />
@@ -69,27 +69,84 @@ const Portfolio = () => {
                         />
                       </div>
                       <div className="details">
-                        <h3>To be announced</h3>
-                        <span></span>
+                        <h3>Currency Converter App</h3>
+                        <span>Mobile App</span>
                       </div>
                       <a
                         className="edrea_tm_full_link portfolio_popup"
                         href="/#portfolio"
                       />
                     </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                   {/* <SwiperSlide className="swiper-slide">
                     <div className="list_inner">
                       <div className="image">
                         <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
-                          data-img-url="img/portfolio/4.jpg"
+                          data-img-url="img/portfolio/3.jpg"
                         />
                       </div>
                       <div className="details">
-                        <h3>Delicious Apple</h3>
-                        <span>Detail</span>
+                        <h3>Mockup Cream</h3>
+                        <span>Soundcloud</span>
+                      </div>
+                      <a
+                        className="edrea_tm_full_link soundcloude_link mfp-iframe audio"
+                        href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                      />
+                    </div>
+                  </SwiperSlide> */}
+                  {/* <SwiperSlide className="swiper-slide">
+                    <div className="list_inner">
+                      <div className="image">
+                        <img src="img/thumbs/1-1.jpg" alt="" />
+                        <div
+                          className="main"
+                          data-img-url="img/portfolio/5.jpg"
+                        />
+                      </div>
+                      <div className="details">
+                        <h3>Blue Lemon</h3>
+                        <span>Image</span>
+                      </div>
+                      <a
+                        className="edrea_tm_full_link zoom"
+                        href="img/portfolio/5.jpg"
+                      />
+                    </div>
+                  </SwiperSlide> */}
+                  {/* <SwiperSlide className="swiper-slide">
+                    <div className="list_inner">
+                      <div className="image">
+                        <img src="img/thumbs/1-1.jpg" alt="" />
+                        <div
+                          className="main"
+                          data-img-url="img/portfolio/6.jpg"
+                        />
+                      </div>
+                      <div className="details">
+                        <h3>Sweet Cheery</h3>
+                        <span>Image</span>
+                      </div>
+                      <a
+                        className="edrea_tm_full_link zoom"
+                        href="img/portfolio/6.jpg"
+                      />
+                    </div>
+                  </SwiperSlide> */}
+                  <SwiperSlide className="swiper-slide">
+                    <div className="list_inner">
+                      <div className="image">
+                        <img src="img/thumbs/1-1.jpg" alt="" />
+                        <div
+                          className="main"
+                          data-img-url="img/portfolio/converter-1.jpeg"
+                        />
+                      </div>
+                      <div className="details">
+                        <h3>Currency Converter</h3>
+                        <span>Mobile App</span>
                       </div>
                       <a
                         className="edrea_tm_full_link portfolio_popup"
@@ -97,7 +154,7 @@ const Portfolio = () => {
                         onClick={() => setModal(true)}
                       />
                     </div>
-                  </SwiperSlide> */}
+                  </SwiperSlide>
                   {/* <SwiperSlide className="swiper-slide">
                     <div className="list_inner">
                       <div className="image">

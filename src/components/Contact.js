@@ -79,14 +79,19 @@ const Contact = () => {
                     </span>
                   </div>
                 </li>
-                {/* <li>
-                  <div className="list_inner">
+                <li>
+                  {/* <div className="list_inner">
                     <i className="icon-facebook-rect" />
                     <span>
-                      <a href="https://www.facebook.com">GitHub</a>
+                      <a href="">Resume</a>
                     </span>
+                  </div> */}
+                  <div className="edrea_tm_button full">
+                    <a href="/img/Setya-Seng.pdf" download>
+                      Download CV
+                    </a>
                   </div>
-                </li> */}
+                </li>
               </ul>
             </div>
             <div className="right">
