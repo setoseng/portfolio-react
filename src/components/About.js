@@ -23,7 +23,6 @@ const aboutData = {
       { name: "Redux", value: "90" },
       { name: "React Native", value: "90" },
       { name: "Python", value: "80" },
-
     ],
     language: [
       { name: "English", value: "95" },
@@ -38,17 +37,24 @@ const aboutData = {
   ],
   working: [
     {
-      year: "Jul 2021 - Nov 2022",
+      year: "April 2023 -  Present",
+      company: "Beauty Elite Group",
+      deg: "Software Developer",
+    },
+    {
+      year: "Jul 2021 - Feb 2023",
       company: "Donut World",
       deg: "Co-Owner",
     },
-    { year: "Jan 2019 - Jul 2021",
+    {
+      year: "Jan 2019 - Jul 2021",
       company: "RiverKids Pediatrics",
       deg: "Software Developer",
     },
-    { year: "Jan 2018 - Jan 2019",
+    {
+      year: "Jan 2018 - Jan 2019",
       company: "RiverKids Pediatrics",
-      deg: "IT Desktop Support" 
+      deg: "IT Desktop Support",
     },
   ],
   partnersLogos: [
@@ -89,13 +95,15 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  Hi, I'm <span>Setya Seng</span>, a software developer with focus on Front End Web Development.
-                  I'm passionate about creating innovative, user-friendly software that 
-                  solves real-world problems. With my technical expertise and drive to 
-                  learn and stay up-to-date on the latest developments in the field, 
-                  I'm confident in my ability to tackle any challenge that comes my way.
-                  If you're looking for a motivated, skilled software developer to help 
-                  bring your next project to life, I'd love to hear from you.
+                  Hi, I'm <span>Setya Seng</span>, a software developer with
+                  focus on Front End Web Development. I'm passionate about
+                  creating innovative, user-friendly software that solves
+                  real-world problems. With my technical expertise and drive to
+                  learn and stay up-to-date on the latest developments in the
+                  field, I'm confident in my ability to tackle any challenge
+                  that comes my way. If you're looking for a motivated, skilled
+                  software developer to help bring your next project to life,
+                  I'd love to hear from you.
                 </p>
               </div>
               <div className="edrea_tm_button">

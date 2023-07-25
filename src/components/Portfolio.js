@@ -25,6 +25,26 @@ const Portfolio = () => {
                         <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
+                          data-img-url="img/portfolio/blowpro-site.jpg"
+                        />
+                      </div>
+                      <div className="details">
+                        <h3>BlowPro</h3>
+                        <span>Main Site</span>
+                      </div>
+                      <a
+                        className="edrea_tm_full_link portfolio_popup"
+                        href="https://blowpro.com/"
+                        target="_/blank"
+                      />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="list_inner">
+                      <div className="image">
+                        <img src="img/thumbs/1-1.jpg" alt="" />
+                        <div
+                          className="main"
                           data-img-url="img/portfolio/donut-world-site-next.jpg"
                         />
                       </div>

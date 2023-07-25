@@ -17,8 +17,8 @@ const AboutPopup = ({ open, close, aboutData }) => {
           <div className="left_inner">
             <div className="author">
               <div className="avatar_image">
-                <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <img src="img/me/me.jpg" alt="" />
+                <div className="main" data-img-url="img/me/me.jpg" />
               </div>
               <div className="short">
                 <h3 className="name">
@@ -95,13 +95,15 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                  Hi, I'm <span>Setya Seng</span>, a software developer with focus on Front End Web Development.
-                  I'm passionate about creating innovative, user-friendly software that 
-                  solves real-world problems. With my technical expertise and drive to 
-                  learn and stay up-to-date on the latest developments in the field, 
-                  I'm confident in my ability to tackle any challenge that comes my way.
-                  If you're looking for a motivated, skilled software developer to help 
-                  bring your next project to life, I'd love to hear from you.
+                  Hi, I'm <span>Setya Seng</span>, a software developer with
+                  focus on Front End Web Development. I'm passionate about
+                  creating innovative, user-friendly software that solves
+                  real-world problems. With my technical expertise and drive to
+                  learn and stay up-to-date on the latest developments in the
+                  field, I'm confident in my ability to tackle any challenge
+                  that comes my way. If you're looking for a motivated, skilled
+                  software developer to help bring your next project to life,
+                  I'd love to hear from you.
                 </p>
               </div>
             </div>
@@ -129,12 +131,12 @@ const AboutPopup = ({ open, close, aboutData }) => {
               <div className="about_title">
                 <h3>
                   <span>
-                    Programming <span className="coloring">Skills</span>
+                    Languages & <span className="coloring">Frameworks</span>
                   </span>
                 </h3>
               </div>
               <div className="oki_progress">
-                {aboutData.skills &&
+                {/* {aboutData.skills &&
                   aboutData.skills.programming &&
                   aboutData.skills.programming.map((programming, i) => (
                     <div
@@ -160,7 +162,13 @@ const AboutPopup = ({ open, close, aboutData }) => {
                         </div>
                       </div>
                     </div>
-                  ))}
+                  ))} */}
+                <div>
+                  <span>
+                    JavaScript, Python, TailwindCSS, React, React Native, Remix,
+                    Nextjs, & Shopify Hydrogen{" "}
+                  </span>
+                </div>
               </div>
             </div>
             {/* <div className="lang_skill">
